@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    /* width: 100%; */
+}
+.navbar {
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nav-logo
+{
+    height: 50px;
+    width :100px;
+    
+}
+.logo{
+    height:50px;
+    width:100%;
+    /* line-height: 50px; */
+    display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            text-align: center;
+    
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+
+/* address-box */
+#a1
+{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}   
+#a2{
+    font-size: 1rem;
+    margin-left: 3px;
+} 
+.icon
+{
+    display: flex;
+    align-items: center;
+    
+}
+
+/* serach bar */
+.nav-search{
+    display: flex;
+    width: 600px;
+    height: 40px;
+    background-color: pink;
+    border-radius: 2px;
+    justify-content: space-evenly;
+ 
+}
+.nav-search :hover{
+    border:2px solid orange;
+}
+.search-icon{
+    background-color: orange;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    color: black;
+}
+.search-select{
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background-color:#f3f3f3;
+    width:45px;
+    padding-right: 1px;
+    text-align: center;
+    border:none;
+    
+}
+.search-ip{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+/* Country */
+.IN{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 30px;
+}
+
+/* Sign-IN */
+span{
+    font-size: 0.7rem;
+}
+.nav-sec{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+/* Panel */
+
+.panel{
+    height: 40px;
+    background-color: rgb(49, 47, 47);
+    display: flex;
+    color: white;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.ops p{
+    display:inline;
+    margin-left:10px;
+}
+.ops{
+    
+    /* justify-content: space-evenly; */
+    width: 70%;
+    font-size: 0.85rem;
+    
+}
+.deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+
+/* Hero section */
+.hero{
+    background-image: url(Hero_1.jpg);
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.hero-msg{
+    background-color: azure;
+    color:black;
+    height: 40px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 30px;
+}
+.hero-msg a{
+    color: #007185;
+}
+.shop{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #faa307;
+    flex-wrap: wrap;
+    /* width: 1200px; */
+}
+.box1 ,.box2,.box3,.box4{
+    height: 400px;
+    width: 300px;
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:20px 0px 15px;
+    margin-top: 10px;
+}
+.h2{
+    background-color: white;
+    /* height: 27px;
+    width:267px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.img-div{
+    background-image: url(box1.jpg);
+    background-size: cover;
+    height: 350px;
+    width:250px;
+    padding-left: 0px;
+    padding-right: 0px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    */
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+.shop-head{
+    margin-left: 20px;
+}
+.shop-head p{
+    color: #007185;
+}
+.one{
+    background-color:rgb(49, 47, 47) ;
+    color: white;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.second{
+    background-color: rgb(54, 51, 51);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.Get{
+    height:291px;
+    width: 136px;
+    padding: 0px 10px;
+   
+}
+.Get a{
+    text-align: center;
+}
